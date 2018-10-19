@@ -1,0 +1,139 @@
+virtualbox install：
+准备工作：
+
+win virtualbox url：https://pan.baidu.com/s/1d7tMMJ1hl9oEdDLbs0_5nw 5.1.30
+其他 https://www.virtualbox.org/wiki/Downloads官网
+     linux虚拟镜像文件:url：https://pan.baidu.com/s/1c7Hzr_fQd51l-VCduLePrQ
+      因为安装虚拟机大部分都是跨系统运行，因此，我的是win10系统	，所以安装的是linux系统。
+VBox是开源的，而且功能强大，可以在 Linux/Mac 和 Windows 主机中运行，并支持在其中安装 Windows (NT 4.0、2000、XP、Server 2003、Vista、Win7)、DOS/Windows 3.x、Linux (2.4 和 2.6)、OpenBSD 等系列的操作系统。
+硬件和操作系统和软件要求：
+
+1)CPU:最低主频266MB，建议P3 1GHz以上，2核以上； 内存:最小128MB，建议512MB； 硬盘:最小空闲空间600MB，建议空闲空间5GB； 操作系统:必须是Windows NT内核操作系统，建议Windows 2000 SP2以上版本。
+2)win8和10 pc-bsd：CPU必须支持VT-x或AMD-V 虚拟化技术功能 suse9/10.0禁止vt-x。其他相关资料链接https://www.virtualbox.org/wiki/Guest_OSes；
+3）如果要用64位虚拟系统或者是Hyper-V虚拟机，那么CPU要支持虚拟化； 所以现在的电脑基本上都可以安装虚拟机的；
+我现在的安装的虚拟机实在我笔记本上win10；安装的是linux系统；
+
+安装前检查vt-x：在安装vbox时，有可能会因为vt-x没有设置，安装不了得情况。所以，我们现在安装前检查并设置；
+1）重启系统，进入BIOS，这个分不同的电脑，按键也不同，
+DEL, ESC, F1, F2, F8, F9, F10, F12；
+ibm/thinkpad（冷开机按f1，部分新型号可以在重新启动时启动按f1）
+惠普hp（启动和重新启动时按f2或者F10）
+索尼sony（启动和重新启动时按f2）
+戴尔dell（启动和重新启动时按f2）
+宏碁acer（启动和重新启动时按f2）
+东芝toshiba（冷开机时按esc然后按f1）
+惠普康柏hp compaq（开机到右上角出现闪动光标时按f10，或者开机时按f10）
+富士通fujitsu（启动和重新启动时按f2）
+三星Samsung（启动和重新时按f2）
+联想Lenovo(启动时按F2或Fn+F2，部分机型需关机时按Novo恢复键)
+华硕Asus（启动时按F2）
+大多数中国大陆国产和台湾品牌（启动和重新启动时按f2）
+2）找到Intel(R) Virtualization Technology 将它disabled变为enabled；
+3）保存并退出；
+参考链接：https://jingyan.baidu.com/article/fc07f98976710e12ffe519de.html
+第一步：下载virtualbox：这是我的5.1.30版本 https://pan.baidu.com/s/1d7tMMJ1hl9oEdDLbs0_5nw；你也可以在官网是下载最新版本 https://www.virtualbox.org/wiki/Downloads；
+下载linux的虚拟镜像文件：（注意：镜像文件都很大,请保留足够的空间）我这提供三个版本：lubuntu18.04：https://pan.baidu.com/s/1fgJ4IneIhwYrdYxazHSn6w；ubuntu16.04：https://pan.baidu.com/s/1Kxt0ehZVisPbf9DCh81Nxw；ubuntu14.04：https://pan.baidu.com/s/1KV-6RgFMyezM0eD5Rd_2yg；
+第二步：安装virtualbox（可以查看流程图片）：
+1）新建一个装虚拟机的文件vbox；
+2）将下载好的virtualbox以及linux镜像文件倒到vbox中（这是我按照本人习惯，你也可以不用，只要在用时能找到即可）；
+3）安装virtualbox（没有什么难度，按图安装，按顺序下一步即可）；
+4）但安装完virtualbox后，先点击virtualbox上的设置，选择储存按钮，在控制器IDE上添加我们下载好的linux镜像文件；点击ok；
+5）点击启动按钮：安装ubuntu；之后可以默认下一步；当到最后时（屏幕中安装步骤的小点都显示），输入你的用户名及密码；点击继续；开始安装；这时时间会很长，请耐心等待。
+6）重启电脑；完成；
+7）验证安装：进入安装的虚拟机系统界面，进入终端；输入命令sudo dmidecode | grep Product（如果没安装的话，请按照sudo apt install dmidecode）,接下来就会显示Product name:virtualBox，即安装虚拟机成功。
+第三步：设置共享文件夹（win和虚拟机linux）：
+1）点击虚拟机界面设置->共享文件夹->添加分享文件夹（右上角添加文件图标）；
+2）在虚拟机界面上点击设备->安装增强功能（点击安装）；
+3）进入到安装增强功能文件夹在终端运行VBoxLinuxAddtion.run；命令：./VBoxLinuxAddtion.run;
+4）在终端中运行命令：sudo mount -t vboxsf 共享文件夹名称（在设置页面设置的） 挂载的目录；
+5）点击你共享的文件夹，即可看到win上面共享的文件了；
+6）当你关闭虚拟机后，虚拟机共享的文件是关闭的，你需要重新在终端中输入sudo mount -t vboxsf 共享文件夹名称（在设置页面设置的） 挂载的目录；当然，终端所在的目录文件夹是需要统一的，因此最好在安装增强功能文件中；
+此外：关于虚拟机的网络链接：虚拟机默认的网络是NAT格式，及将虚拟机作为一个软件通过主机链接到外部网络，因此，NAT模式没有ip，他的ip是主机的ip；而我们可以将网络设置为桥接模式和仅主机可见模式；桥接模式是将虚拟机作为一个独立计算机，拥有独立的ip，通过主机连接外部网络；仅主机可见模式是仅虚拟机与主机间的网络连接，不具备链接外部网络，但可以通过安装代理软件等共享网络来进行联网；
+可参考：https://www.cnblogs.com/xuan52rock/p/5295069.html；
+在虚拟机上验证是否连接网络，可通过命令ping www.baidu.com(其可谓任何一个网址)来进行验证；如果没有网络，会提示网络解析错误；如果成功，则网络为会持续显示数据；
+
+vagrant install：
+vagrant download url：https://www.vagrantup.com/downloads.html
+linux :sudo apt install vagrant -y
+vagrant运行的命令：
+准备：准备好一个vagrantfile文件
+vagrant up（此命令为启动vagrantfile文件生成虚拟机）
+vagrant ssh （此命令为进入虚拟机）
+以下为通过iso镜像制作个人box；
+下载centos的minimal iso镜像文件，资源https://www.centos.org/ 中minimal iso选项；
+运行vbox虚拟机进行安装；
+注意：（将安装生成的文件与iso放在一个文件夹下如centosfile）
+cd centosfile
+git init
+vagrant package —base centos75
+vagrant box add centos75 package.box
+以上为生成box
+git init
+vagrant init centos75 （此命令是根据box生成vagrantfile）
+vagrant up
+注意：当运行vagrant up命令结束后，在虚拟机vbox上点击show（显示），来显示并操作安装的系统；
+以上为运行box
+
+netBeans install：
+netBeans  download  url：https://netbeans.org/
+jdk download url：https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html
+安装资料url：https://netbeans.org/community/releases/82/install_zh_CN.html
+Microsoft Windows 和 Linux
+安装软件：
+
+下载完成后，运行安装程序。
+对于 Windows，安装程序可执行文件的扩展名为 .exe。双击安装文件便可运行它。
+对于 Linux 平台，安装文件的扩展名为 .sh。对于这些平台，您需要使用以下命令来执行安装文件：chmod +x <installer-file-name>。键入 ./<installer-file-name> 以运行安装程序。
+如果下载了全部或 Java EE 包，则可以对安装进行定制。请执行安装向导的欢迎页上的以下步骤：
+单击“定制”。
+在“定制安装”对话框中进行选择。
+单击“确定”。
+在安装向导的欢迎页中，单击“下一步”。
+在“许可证协议”页中，查看许可证协议，单击接受复选框，然后单击“下一步”。
+在 NetBeans IDE 安装页中，执行以下操作：
+接受默认的 NetBeans IDE 安装目录，或者指定其他目录。
+注：安装目录必须为空，并且在运行安装程序时使用的用户配置文件必须具有此目录的读/写权限。
+
+（仅适用于全部或 Java EE 包。）接受要与 NetBeans IDE 一起使用的默认 JDK 安装，或者从下拉列表中选择其他安装。如果安装向导找不到要与 NetBeans IDE 一起使用的兼容 JDK 安装，则表明未在默认位置安装 JDK。在这种情况下，指定安装的 JDK 路径，然后单击“下一步”，或者取消当前安装。在安装所需的 JDK 版本后，您可以重新启动安装。
+注：如果 JDK 版本早于建议的 JDK 8，请从 Java SE 下载页下载并安装最新的 JDK 更新，然后重新启动 NetBeans IDE 安装程序。
+
+单击“下一步”。
+如果打开了 GlassFish Server Open Source Edition 4.1.1 安装页，请接受默认安装目录，或者指定其他安装位置，然后单击“下一步”。
+如果您要在 Apache Tomcat 安装页上安装 Apache Tomcat，请接受默认安装目录，或者指定其他安装位置。单击“下一步”。
+在“概要”页上，执行以下操作：
+确保要安装的组件列表正确。
+如果要检查更新中心中是否存在可能的更新，请选中“检查更新”复选框。
+确保系统上有足够的空间可用于安装。
+单击“安装”开始进行安装。
+在“安装完成”页中，请根据需要提供匿名使用数据，然后单击“完成”。
+注：如果您遇到问题而无法成功完成软件的安装，请参见疑难解答，该部分针对影响安装过程的未解决问题进行了描述并提供了建议的解决方法。
+
+OS X
+安装软件：
+
+下载完成后，运行安装程序。安装文件的扩展名为 .dmg。
+在打开的面板上，双击包图标。包的扩展名为 .pkg。此时将启动安装向导。
+在显示“此包将运行程序来确定是否可以安装软件”对话框时，单击“继续”。
+在安装向导的简介页中，单击“继续”。
+注：如果 JDK 版本早于建议的 JDK 8，请从 Java SE 下载页下载并安装最新的 JDK 更新，然后重新启动 NetBeans IDE 安装程序。
+
+查看许可证协议，然后单击“继续”。单击弹出式窗口中的“接受”以接受许可证。
+在“选择目标”页中，选择驱动器，然后单击“继续”。
+如果下载了全部或 Java EE 包，则可以对安装进行定制。在安装向导的最后一个面板上，按面板左下角的“定制”按钮。此时将显示产品树。
+选择要安装的产品。
+输入系统管理员的名称和口令，然后单击“确定”开始进行安装。
+与平台无关的包
+运行软件：
+
+下载完与平台无关的 ZIP 文件之后，将其解压缩到系统上的任意文件夹中。
+运行位于 netbeans/bin 目录中的可执行文件。
+接受许可证协议。
+单击“下一步”。此时将会启动 NetBeans IDE 安装。
+注：如果找不到兼容的 JDK 安装，您可能需要通过执行以下操作手动添加指向 JDK 安装目录的路径：
+
+在文本编辑器中打开位于 netbeans/etc 目录中的 netbeans.conf 文件。
+为 netbeans_jdkhome 选项输入兼容 JDK 安装的位置。Windows 中的默认位置为 C:\Program Files\Java\jdk1.8.0 或类似位置。
+保存 netbeans.conf 文件，然后运行 netbeans/bin 目录中的可执行文件。
+注：GlassFish Server Open Source Edition 和 Apache Tomcat 仅包含在特定于平台的安装程序中。
+
+注：要使用已安装在计算机上的 GlassFish Server Open Source Edition 和/或 Apache Tomcat，请在 NetBeans IDE 中，单击工具菜单中的服务器。此时将会显示添加服务器实例向导，该向导可帮助在 NetBeans IDE 中注册所需 Web 服务器的实例。
