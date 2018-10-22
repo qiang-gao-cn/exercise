@@ -1,5 +1,5 @@
 virtualbox install：
-win virtualbox url：https://pan.baidu.com/s/1d7tMMJ1hl9oEdDLbs0_5nw 5.1.30
+win virtualbox url：https://download.virtualbox.org/virtualbox/5.2.20/VirtualBox-5.2.20-125813-Win.exe
 
 vagrant install：
 vagrant download url：https://www.vagrantup.com/downloads.html
