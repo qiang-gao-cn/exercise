@@ -1,139 +1,60 @@
-virtualbox install£º
-×¼±¸¹¤×÷£º
+virtualbox installï¼š
+win virtualbox urlï¼šhttps://pan.baidu.com/s/1d7tMMJ1hl9oEdDLbs0_5nw 5.1.30
 
-win virtualbox url£ºhttps://pan.baidu.com/s/1d7tMMJ1hl9oEdDLbs0_5nw 5.1.30
-ÆäËû https://www.virtualbox.org/wiki/Downloads¹ÙÍø
-     linuxÐéÄâ¾µÏñÎÄ¼þ:url£ºhttps://pan.baidu.com/s/1c7Hzr_fQd51l-VCduLePrQ
-      ÒòÎª°²×°ÐéÄâ»ú´ó²¿·Ö¶¼ÊÇ¿çÏµÍ³ÔËÐÐ£¬Òò´Ë£¬ÎÒµÄÊÇwin10ÏµÍ³	£¬ËùÒÔ°²×°µÄÊÇlinuxÏµÍ³¡£
-VBoxÊÇ¿ªÔ´µÄ£¬¶øÇÒ¹¦ÄÜÇ¿´ó£¬¿ÉÒÔÔÚ Linux/Mac ºÍ Windows Ö÷»úÖÐÔËÐÐ£¬²¢Ö§³ÖÔÚÆäÖÐ°²×° Windows (NT 4.0¡¢2000¡¢XP¡¢Server 2003¡¢Vista¡¢Win7)¡¢DOS/Windows 3.x¡¢Linux (2.4 ºÍ 2.6)¡¢OpenBSD µÈÏµÁÐµÄ²Ù×÷ÏµÍ³¡£
-Ó²¼þºÍ²Ù×÷ÏµÍ³ºÍÈí¼þÒªÇó£º
-
-1)CPU:×îµÍÖ÷Æµ266MB£¬½¨ÒéP3 1GHzÒÔÉÏ£¬2ºËÒÔÉÏ£» ÄÚ´æ:×îÐ¡128MB£¬½¨Òé512MB£» Ó²ÅÌ:×îÐ¡¿ÕÏÐ¿Õ¼ä600MB£¬½¨Òé¿ÕÏÐ¿Õ¼ä5GB£» ²Ù×÷ÏµÍ³:±ØÐëÊÇWindows NTÄÚºË²Ù×÷ÏµÍ³£¬½¨ÒéWindows 2000 SP2ÒÔÉÏ°æ±¾¡£
-2)win8ºÍ10 pc-bsd£ºCPU±ØÐëÖ§³ÖVT-x»òAMD-V ÐéÄâ»¯¼¼Êõ¹¦ÄÜ suse9/10.0½ûÖ¹vt-x¡£ÆäËûÏà¹Ø×ÊÁÏÁ´½Óhttps://www.virtualbox.org/wiki/Guest_OSes£»
-3£©Èç¹ûÒªÓÃ64Î»ÐéÄâÏµÍ³»òÕßÊÇHyper-VÐéÄâ»ú£¬ÄÇÃ´CPUÒªÖ§³ÖÐéÄâ»¯£» ËùÒÔÏÖÔÚµÄµçÄÔ»ù±¾ÉÏ¶¼¿ÉÒÔ°²×°ÐéÄâ»úµÄ£»
-ÎÒÏÖÔÚµÄ°²×°µÄÐéÄâ»úÊµÔÚÎÒ±Ê¼Ç±¾ÉÏwin10£»°²×°µÄÊÇlinuxÏµÍ³£»
-
-°²×°Ç°¼ì²évt-x£ºÔÚ°²×°vboxÊ±£¬ÓÐ¿ÉÄÜ»áÒòÎªvt-xÃ»ÓÐÉèÖÃ£¬°²×°²»ÁËµÃÇé¿ö¡£ËùÒÔ£¬ÎÒÃÇÏÖÔÚ°²×°Ç°¼ì²é²¢ÉèÖÃ£»
-1£©ÖØÆôÏµÍ³£¬½øÈëBIOS£¬Õâ¸ö·Ö²»Í¬µÄµçÄÔ£¬°´¼üÒ²²»Í¬£¬
-DEL, ESC, F1, F2, F8, F9, F10, F12£»
-ibm/thinkpad£¨Àä¿ª»ú°´f1£¬²¿·ÖÐÂÐÍºÅ¿ÉÒÔÔÚÖØÐÂÆô¶¯Ê±Æô¶¯°´f1£©
-»ÝÆÕhp£¨Æô¶¯ºÍÖØÐÂÆô¶¯Ê±°´f2»òÕßF10£©
-Ë÷Äásony£¨Æô¶¯ºÍÖØÐÂÆô¶¯Ê±°´f2£©
-´÷¶ûdell£¨Æô¶¯ºÍÖØÐÂÆô¶¯Ê±°´f2£©
-ºê³žacer£¨Æô¶¯ºÍÖØÐÂÆô¶¯Ê±°´f2£©
-¶«Ö¥toshiba£¨Àä¿ª»úÊ±°´escÈ»ºó°´f1£©
-»ÝÆÕ¿µ°Øhp compaq£¨¿ª»úµ½ÓÒÉÏ½Ç³öÏÖÉÁ¶¯¹â±êÊ±°´f10£¬»òÕß¿ª»úÊ±°´f10£©
-¸»Ê¿Í¨fujitsu£¨Æô¶¯ºÍÖØÐÂÆô¶¯Ê±°´f2£©
-ÈýÐÇSamsung£¨Æô¶¯ºÍÖØÐÂÊ±°´f2£©
-ÁªÏëLenovo(Æô¶¯Ê±°´F2»òFn+F2£¬²¿·Ö»úÐÍÐè¹Ø»úÊ±°´Novo»Ö¸´¼ü)
-»ªË¶Asus£¨Æô¶¯Ê±°´F2£©
-´ó¶àÊýÖÐ¹ú´óÂ½¹ú²úºÍÌ¨ÍåÆ·ÅÆ£¨Æô¶¯ºÍÖØÐÂÆô¶¯Ê±°´f2£©
-2£©ÕÒµ½Intel(R) Virtualization Technology ½«Ëüdisabled±äÎªenabled£»
-3£©±£´æ²¢ÍË³ö£»
-²Î¿¼Á´½Ó£ºhttps://jingyan.baidu.com/article/fc07f98976710e12ffe519de.html
-µÚÒ»²½£ºÏÂÔØvirtualbox£ºÕâÊÇÎÒµÄ5.1.30°æ±¾ https://pan.baidu.com/s/1d7tMMJ1hl9oEdDLbs0_5nw£»ÄãÒ²¿ÉÒÔÔÚ¹ÙÍøÊÇÏÂÔØ×îÐÂ°æ±¾ https://www.virtualbox.org/wiki/Downloads£»
-ÏÂÔØlinuxµÄÐéÄâ¾µÏñÎÄ¼þ£º£¨×¢Òâ£º¾µÏñÎÄ¼þ¶¼ºÜ´ó,Çë±£Áô×ã¹»µÄ¿Õ¼ä£©ÎÒÕâÌá¹©Èý¸ö°æ±¾£ºlubuntu18.04£ºhttps://pan.baidu.com/s/1fgJ4IneIhwYrdYxazHSn6w£»ubuntu16.04£ºhttps://pan.baidu.com/s/1Kxt0ehZVisPbf9DCh81Nxw£»ubuntu14.04£ºhttps://pan.baidu.com/s/1KV-6RgFMyezM0eD5Rd_2yg£»
-µÚ¶þ²½£º°²×°virtualbox£¨¿ÉÒÔ²é¿´Á÷³ÌÍ¼Æ¬£©£º
-1£©ÐÂ½¨Ò»¸ö×°ÐéÄâ»úµÄÎÄ¼þvbox£»
-2£©½«ÏÂÔØºÃµÄvirtualboxÒÔ¼°linux¾µÏñÎÄ¼þµ¹µ½vboxÖÐ£¨ÕâÊÇÎÒ°´ÕÕ±¾ÈËÏ°¹ß£¬ÄãÒ²¿ÉÒÔ²»ÓÃ£¬Ö»ÒªÔÚÓÃÊ±ÄÜÕÒµ½¼´¿É£©£»
-3£©°²×°virtualbox£¨Ã»ÓÐÊ²Ã´ÄÑ¶È£¬°´Í¼°²×°£¬°´Ë³ÐòÏÂÒ»²½¼´¿É£©£»
-4£©µ«°²×°Íêvirtualboxºó£¬ÏÈµã»÷virtualboxÉÏµÄÉèÖÃ£¬Ñ¡Ôñ´¢´æ°´Å¥£¬ÔÚ¿ØÖÆÆ÷IDEÉÏÌí¼ÓÎÒÃÇÏÂÔØºÃµÄlinux¾µÏñÎÄ¼þ£»µã»÷ok£»
-5£©µã»÷Æô¶¯°´Å¥£º°²×°ubuntu£»Ö®ºó¿ÉÒÔÄ¬ÈÏÏÂÒ»²½£»µ±µ½×îºóÊ±£¨ÆÁÄ»ÖÐ°²×°²½ÖèµÄÐ¡µã¶¼ÏÔÊ¾£©£¬ÊäÈëÄãµÄÓÃ»§Ãû¼°ÃÜÂë£»µã»÷¼ÌÐø£»¿ªÊ¼°²×°£»ÕâÊ±Ê±¼ä»áºÜ³¤£¬ÇëÄÍÐÄµÈ´ý¡£
-6£©ÖØÆôµçÄÔ£»Íê³É£»
-7£©ÑéÖ¤°²×°£º½øÈë°²×°µÄÐéÄâ»úÏµÍ³½çÃæ£¬½øÈëÖÕ¶Ë£»ÊäÈëÃüÁîsudo dmidecode | grep Product£¨Èç¹ûÃ»°²×°µÄ»°£¬Çë°´ÕÕsudo apt install dmidecode£©,½ÓÏÂÀ´¾Í»áÏÔÊ¾Product name:virtualBox£¬¼´°²×°ÐéÄâ»ú³É¹¦¡£
-µÚÈý²½£ºÉèÖÃ¹²ÏíÎÄ¼þ¼Ð£¨winºÍÐéÄâ»úlinux£©£º
-1£©µã»÷ÐéÄâ»ú½çÃæÉèÖÃ->¹²ÏíÎÄ¼þ¼Ð->Ìí¼Ó·ÖÏíÎÄ¼þ¼Ð£¨ÓÒÉÏ½ÇÌí¼ÓÎÄ¼þÍ¼±ê£©£»
-2£©ÔÚÐéÄâ»ú½çÃæÉÏµã»÷Éè±¸->°²×°ÔöÇ¿¹¦ÄÜ£¨µã»÷°²×°£©£»
-3£©½øÈëµ½°²×°ÔöÇ¿¹¦ÄÜÎÄ¼þ¼ÐÔÚÖÕ¶ËÔËÐÐVBoxLinuxAddtion.run£»ÃüÁî£º./VBoxLinuxAddtion.run;
-4£©ÔÚÖÕ¶ËÖÐÔËÐÐÃüÁî£ºsudo mount -t vboxsf ¹²ÏíÎÄ¼þ¼ÐÃû³Æ£¨ÔÚÉèÖÃÒ³ÃæÉèÖÃµÄ£© ¹ÒÔØµÄÄ¿Â¼£»
-5£©µã»÷Äã¹²ÏíµÄÎÄ¼þ¼Ð£¬¼´¿É¿´µ½winÉÏÃæ¹²ÏíµÄÎÄ¼þÁË£»
-6£©µ±Äã¹Ø±ÕÐéÄâ»úºó£¬ÐéÄâ»ú¹²ÏíµÄÎÄ¼þÊÇ¹Ø±ÕµÄ£¬ÄãÐèÒªÖØÐÂÔÚÖÕ¶ËÖÐÊäÈësudo mount -t vboxsf ¹²ÏíÎÄ¼þ¼ÐÃû³Æ£¨ÔÚÉèÖÃÒ³ÃæÉèÖÃµÄ£© ¹ÒÔØµÄÄ¿Â¼£»µ±È»£¬ÖÕ¶ËËùÔÚµÄÄ¿Â¼ÎÄ¼þ¼ÐÊÇÐèÒªÍ³Ò»µÄ£¬Òò´Ë×îºÃÔÚ°²×°ÔöÇ¿¹¦ÄÜÎÄ¼þÖÐ£»
-´ËÍâ£º¹ØÓÚÐéÄâ»úµÄÍøÂçÁ´½Ó£ºÐéÄâ»úÄ¬ÈÏµÄÍøÂçÊÇNAT¸ñÊ½£¬¼°½«ÐéÄâ»ú×÷ÎªÒ»¸öÈí¼þÍ¨¹ýÖ÷»úÁ´½Óµ½Íâ²¿ÍøÂç£¬Òò´Ë£¬NATÄ£Ê½Ã»ÓÐip£¬ËûµÄipÊÇÖ÷»úµÄip£»¶øÎÒÃÇ¿ÉÒÔ½«ÍøÂçÉèÖÃÎªÇÅ½ÓÄ£Ê½ºÍ½öÖ÷»ú¿É¼ûÄ£Ê½£»ÇÅ½ÓÄ£Ê½ÊÇ½«ÐéÄâ»ú×÷ÎªÒ»¸ö¶ÀÁ¢¼ÆËã»ú£¬ÓµÓÐ¶ÀÁ¢µÄip£¬Í¨¹ýÖ÷»úÁ¬½ÓÍâ²¿ÍøÂç£»½öÖ÷»ú¿É¼ûÄ£Ê½ÊÇ½öÐéÄâ»úÓëÖ÷»ú¼äµÄÍøÂçÁ¬½Ó£¬²»¾ß±¸Á´½ÓÍâ²¿ÍøÂç£¬µ«¿ÉÒÔÍ¨¹ý°²×°´úÀíÈí¼þµÈ¹²ÏíÍøÂçÀ´½øÐÐÁªÍø£»
-¿É²Î¿¼£ºhttps://www.cnblogs.com/xuan52rock/p/5295069.html£»
-ÔÚÐéÄâ»úÉÏÑéÖ¤ÊÇ·ñÁ¬½ÓÍøÂç£¬¿ÉÍ¨¹ýÃüÁîping www.baidu.com(Æä¿ÉÎ½ÈÎºÎÒ»¸öÍøÖ·)À´½øÐÐÑéÖ¤£»Èç¹ûÃ»ÓÐÍøÂç£¬»áÌáÊ¾ÍøÂç½âÎö´íÎó£»Èç¹û³É¹¦£¬ÔòÍøÂçÎª»á³ÖÐøÏÔÊ¾Êý¾Ý£»
-
-vagrant install£º
-vagrant download url£ºhttps://www.vagrantup.com/downloads.html
+vagrant installï¼š
+vagrant download urlï¼šhttps://www.vagrantup.com/downloads.html
 linux :sudo apt install vagrant -y
-vagrantÔËÐÐµÄÃüÁî£º
-×¼±¸£º×¼±¸ºÃÒ»¸övagrantfileÎÄ¼þ
-vagrant up£¨´ËÃüÁîÎªÆô¶¯vagrantfileÎÄ¼þÉú³ÉÐéÄâ»ú£©
-vagrant ssh £¨´ËÃüÁîÎª½øÈëÐéÄâ»ú£©
-ÒÔÏÂÎªÍ¨¹ýiso¾µÏñÖÆ×÷¸öÈËbox£»
-ÏÂÔØcentosµÄminimal iso¾µÏñÎÄ¼þ£¬×ÊÔ´https://www.centos.org/ ÖÐminimal isoÑ¡Ïî£»
-ÔËÐÐvboxÐéÄâ»ú½øÐÐ°²×°£»
-×¢Òâ£º£¨½«°²×°Éú³ÉµÄÎÄ¼þÓëiso·ÅÔÚÒ»¸öÎÄ¼þ¼ÐÏÂÈçcentosfile£©
+vagrantè¿è¡Œçš„å‘½ä»¤ï¼š
+å‡†å¤‡ï¼šå‡†å¤‡å¥½ä¸€ä¸ªvagrantfileæ–‡ä»¶
+vagrant upï¼ˆæ­¤å‘½ä»¤ä¸ºå¯åŠ¨vagrantfileæ–‡ä»¶ç”Ÿæˆè™šæ‹Ÿæœºï¼‰
+vagrant ssh ï¼ˆæ­¤å‘½ä»¤ä¸ºè¿›å…¥è™šæ‹Ÿæœºï¼‰
+ä»¥ä¸‹ä¸ºé€šè¿‡isoé•œåƒåˆ¶ä½œä¸ªäººboxï¼›
+ä¸‹è½½centosçš„minimal isoé•œåƒæ–‡ä»¶ï¼Œèµ„æºhttps://www.centos.org/ ä¸­minimal isoé€‰é¡¹ï¼›
+è¿è¡Œvboxè™šæ‹Ÿæœºè¿›è¡Œå®‰è£…ï¼›
+æ³¨æ„ï¼šï¼ˆå°†å®‰è£…ç”Ÿæˆçš„æ–‡ä»¶ä¸Žisoæ”¾åœ¨ä¸€ä¸ªæ–‡ä»¶å¤¹ä¸‹å¦‚centosfileï¼‰
 cd centosfile
 git init
-vagrant package ¡ªbase centos75
+vagrant package â€”base centos75
 vagrant box add centos75 package.box
-ÒÔÉÏÎªÉú³Ébox
+ä»¥ä¸Šä¸ºç”Ÿæˆbox
 git init
-vagrant init centos75 £¨´ËÃüÁîÊÇ¸ù¾ÝboxÉú³Évagrantfile£©
+vagrant init centos75 ï¼ˆæ­¤å‘½ä»¤æ˜¯æ ¹æ®boxç”Ÿæˆvagrantfileï¼‰
 vagrant up
-×¢Òâ£ºµ±ÔËÐÐvagrant upÃüÁî½áÊøºó£¬ÔÚÐéÄâ»úvboxÉÏµã»÷show£¨ÏÔÊ¾£©£¬À´ÏÔÊ¾²¢²Ù×÷°²×°µÄÏµÍ³£»
-ÒÔÉÏÎªÔËÐÐbox
+æ³¨æ„ï¼šå½“è¿è¡Œvagrant upå‘½ä»¤ç»“æŸåŽï¼Œåœ¨è™šæ‹Ÿæœºvboxä¸Šç‚¹å‡»showï¼ˆæ˜¾ç¤ºï¼‰ï¼Œæ¥æ˜¾ç¤ºå¹¶æ“ä½œå®‰è£…çš„ç³»ç»Ÿï¼›
+ä»¥ä¸Šä¸ºè¿è¡Œbox
 
-netBeans install£º
-netBeans  download  url£ºhttps://netbeans.org/
-jdk download url£ºhttps://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html
-°²×°×ÊÁÏurl£ºhttps://netbeans.org/community/releases/82/install_zh_CN.html
-Microsoft Windows ºÍ Linux
-°²×°Èí¼þ£º
+netBeans installï¼š
+netBeans  download  urlï¼šhttps://netbeans.org/
+jdk download urlï¼šhttps://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html
+å®‰è£…èµ„æ–™urlï¼šhttps://netbeans.org/community/releases/82/install_zh_CN.html
+Microsoft Windows å’Œ Linux
+å®‰è£…è½¯ä»¶ï¼š
 
-ÏÂÔØÍê³Éºó£¬ÔËÐÐ°²×°³ÌÐò¡£
-¶ÔÓÚ Windows£¬°²×°³ÌÐò¿ÉÖ´ÐÐÎÄ¼þµÄÀ©Õ¹ÃûÎª .exe¡£Ë«»÷°²×°ÎÄ¼þ±ã¿ÉÔËÐÐËü¡£
-¶ÔÓÚ Linux Æ½Ì¨£¬°²×°ÎÄ¼þµÄÀ©Õ¹ÃûÎª .sh¡£¶ÔÓÚÕâÐ©Æ½Ì¨£¬ÄúÐèÒªÊ¹ÓÃÒÔÏÂÃüÁîÀ´Ö´ÐÐ°²×°ÎÄ¼þ£ºchmod +x <installer-file-name>¡£¼üÈë ./<installer-file-name> ÒÔÔËÐÐ°²×°³ÌÐò¡£
-Èç¹ûÏÂÔØÁËÈ«²¿»ò Java EE °ü£¬Ôò¿ÉÒÔ¶Ô°²×°½øÐÐ¶¨ÖÆ¡£ÇëÖ´ÐÐ°²×°Ïòµ¼µÄ»¶Ó­Ò³ÉÏµÄÒÔÏÂ²½Öè£º
-µ¥»÷¡°¶¨ÖÆ¡±¡£
-ÔÚ¡°¶¨ÖÆ°²×°¡±¶Ô»°¿òÖÐ½øÐÐÑ¡Ôñ¡£
-µ¥»÷¡°È·¶¨¡±¡£
-ÔÚ°²×°Ïòµ¼µÄ»¶Ó­Ò³ÖÐ£¬µ¥»÷¡°ÏÂÒ»²½¡±¡£
-ÔÚ¡°Ðí¿ÉÖ¤Ð­Òé¡±Ò³ÖÐ£¬²é¿´Ðí¿ÉÖ¤Ð­Òé£¬µ¥»÷½ÓÊÜ¸´Ñ¡¿ò£¬È»ºóµ¥»÷¡°ÏÂÒ»²½¡±¡£
-ÔÚ NetBeans IDE °²×°Ò³ÖÐ£¬Ö´ÐÐÒÔÏÂ²Ù×÷£º
-½ÓÊÜÄ¬ÈÏµÄ NetBeans IDE °²×°Ä¿Â¼£¬»òÕßÖ¸¶¨ÆäËûÄ¿Â¼¡£
-×¢£º°²×°Ä¿Â¼±ØÐëÎª¿Õ£¬²¢ÇÒÔÚÔËÐÐ°²×°³ÌÐòÊ±Ê¹ÓÃµÄÓÃ»§ÅäÖÃÎÄ¼þ±ØÐë¾ßÓÐ´ËÄ¿Â¼µÄ¶Á/Ð´È¨ÏÞ¡£
+ä¸‹è½½å®ŒæˆåŽï¼Œè¿è¡Œå®‰è£…ç¨‹åºã€‚
+å¯¹äºŽ Windowsï¼Œå®‰è£…ç¨‹åºå¯æ‰§è¡Œæ–‡ä»¶çš„æ‰©å±•åä¸º .exeã€‚åŒå‡»å®‰è£…æ–‡ä»¶ä¾¿å¯è¿è¡Œå®ƒã€‚
+å¯¹äºŽ Linux å¹³å°ï¼Œå®‰è£…æ–‡ä»¶çš„æ‰©å±•åä¸º .shã€‚å¯¹äºŽè¿™äº›å¹³å°ï¼Œæ‚¨éœ€è¦ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤æ¥æ‰§è¡Œå®‰è£…æ–‡ä»¶ï¼šchmod +x <installer-file-name>ã€‚é”®å…¥ ./<installer-file-name> ä»¥è¿è¡Œå®‰è£…ç¨‹åºã€‚
+å¦‚æžœä¸‹è½½äº†å…¨éƒ¨æˆ– Java EE åŒ…ï¼Œåˆ™å¯ä»¥å¯¹å®‰è£…è¿›è¡Œå®šåˆ¶ã€‚è¯·æ‰§è¡Œå®‰è£…å‘å¯¼çš„æ¬¢è¿Žé¡µä¸Šçš„ä»¥ä¸‹æ­¥éª¤ï¼š
+å•å‡»â€œå®šåˆ¶â€ã€‚
+åœ¨â€œå®šåˆ¶å®‰è£…â€å¯¹è¯æ¡†ä¸­è¿›è¡Œé€‰æ‹©ã€‚
+å•å‡»â€œç¡®å®šâ€ã€‚
+åœ¨å®‰è£…å‘å¯¼çš„æ¬¢è¿Žé¡µä¸­ï¼Œå•å‡»â€œä¸‹ä¸€æ­¥â€ã€‚
+åœ¨â€œè®¸å¯è¯åè®®â€é¡µä¸­ï¼ŒæŸ¥çœ‹è®¸å¯è¯åè®®ï¼Œå•å‡»æŽ¥å—å¤é€‰æ¡†ï¼Œç„¶åŽå•å‡»â€œä¸‹ä¸€æ­¥â€ã€‚
+åœ¨ NetBeans IDE å®‰è£…é¡µä¸­ï¼Œæ‰§è¡Œä»¥ä¸‹æ“ä½œï¼š
+æŽ¥å—é»˜è®¤çš„ NetBeans IDE å®‰è£…ç›®å½•ï¼Œæˆ–è€…æŒ‡å®šå…¶ä»–ç›®å½•ã€‚
+æ³¨ï¼šå®‰è£…ç›®å½•å¿…é¡»ä¸ºç©ºï¼Œå¹¶ä¸”åœ¨è¿è¡Œå®‰è£…ç¨‹åºæ—¶ä½¿ç”¨çš„ç”¨æˆ·é…ç½®æ–‡ä»¶å¿…é¡»å…·æœ‰æ­¤ç›®å½•çš„è¯»/å†™æƒé™ã€‚
 
-£¨½öÊÊÓÃÓÚÈ«²¿»ò Java EE °ü¡££©½ÓÊÜÒªÓë NetBeans IDE Ò»ÆðÊ¹ÓÃµÄÄ¬ÈÏ JDK °²×°£¬»òÕß´ÓÏÂÀ­ÁÐ±íÖÐÑ¡ÔñÆäËû°²×°¡£Èç¹û°²×°Ïòµ¼ÕÒ²»µ½ÒªÓë NetBeans IDE Ò»ÆðÊ¹ÓÃµÄ¼æÈÝ JDK °²×°£¬Ôò±íÃ÷Î´ÔÚÄ¬ÈÏÎ»ÖÃ°²×° JDK¡£ÔÚÕâÖÖÇé¿öÏÂ£¬Ö¸¶¨°²×°µÄ JDK Â·¾¶£¬È»ºóµ¥»÷¡°ÏÂÒ»²½¡±£¬»òÕßÈ¡Ïûµ±Ç°°²×°¡£ÔÚ°²×°ËùÐèµÄ JDK °æ±¾ºó£¬Äú¿ÉÒÔÖØÐÂÆô¶¯°²×°¡£
-×¢£ºÈç¹û JDK °æ±¾ÔçÓÚ½¨ÒéµÄ JDK 8£¬Çë´Ó Java SE ÏÂÔØÒ³ÏÂÔØ²¢°²×°×îÐÂµÄ JDK ¸üÐÂ£¬È»ºóÖØÐÂÆô¶¯ NetBeans IDE °²×°³ÌÐò¡£
+ï¼ˆä»…é€‚ç”¨äºŽå…¨éƒ¨æˆ– Java EE åŒ…ã€‚ï¼‰æŽ¥å—è¦ä¸Ž NetBeans IDE ä¸€èµ·ä½¿ç”¨çš„é»˜è®¤ JDK å®‰è£…ï¼Œæˆ–è€…ä»Žä¸‹æ‹‰åˆ—è¡¨ä¸­é€‰æ‹©å…¶ä»–å®‰è£…ã€‚å¦‚æžœå®‰è£…å‘å¯¼æ‰¾ä¸åˆ°è¦ä¸Ž NetBeans IDE ä¸€èµ·ä½¿ç”¨çš„å…¼å®¹ JDK å®‰è£…ï¼Œåˆ™è¡¨æ˜Žæœªåœ¨é»˜è®¤ä½ç½®å®‰è£… JDKã€‚åœ¨è¿™ç§æƒ…å†µä¸‹ï¼ŒæŒ‡å®šå®‰è£…çš„ JDK è·¯å¾„ï¼Œç„¶åŽå•å‡»â€œä¸‹ä¸€æ­¥â€ï¼Œæˆ–è€…å–æ¶ˆå½“å‰å®‰è£…ã€‚åœ¨å®‰è£…æ‰€éœ€çš„ JDK ç‰ˆæœ¬åŽï¼Œæ‚¨å¯ä»¥é‡æ–°å¯åŠ¨å®‰è£…ã€‚
+æ³¨ï¼šå¦‚æžœ JDK ç‰ˆæœ¬æ—©äºŽå»ºè®®çš„ JDK 8ï¼Œè¯·ä»Ž Java SE ä¸‹è½½é¡µä¸‹è½½å¹¶å®‰è£…æœ€æ–°çš„ JDK æ›´æ–°ï¼Œç„¶åŽé‡æ–°å¯åŠ¨ NetBeans IDE å®‰è£…ç¨‹åºã€‚
 
-µ¥»÷¡°ÏÂÒ»²½¡±¡£
-Èç¹û´ò¿ªÁË GlassFish Server Open Source Edition 4.1.1 °²×°Ò³£¬Çë½ÓÊÜÄ¬ÈÏ°²×°Ä¿Â¼£¬»òÕßÖ¸¶¨ÆäËû°²×°Î»ÖÃ£¬È»ºóµ¥»÷¡°ÏÂÒ»²½¡±¡£
-Èç¹ûÄúÒªÔÚ Apache Tomcat °²×°Ò³ÉÏ°²×° Apache Tomcat£¬Çë½ÓÊÜÄ¬ÈÏ°²×°Ä¿Â¼£¬»òÕßÖ¸¶¨ÆäËû°²×°Î»ÖÃ¡£µ¥»÷¡°ÏÂÒ»²½¡±¡£
-ÔÚ¡°¸ÅÒª¡±Ò³ÉÏ£¬Ö´ÐÐÒÔÏÂ²Ù×÷£º
-È·±£Òª°²×°µÄ×é¼þÁÐ±íÕýÈ·¡£
-Èç¹ûÒª¼ì²é¸üÐÂÖÐÐÄÖÐÊÇ·ñ´æÔÚ¿ÉÄÜµÄ¸üÐÂ£¬ÇëÑ¡ÖÐ¡°¼ì²é¸üÐÂ¡±¸´Ñ¡¿ò¡£
-È·±£ÏµÍ³ÉÏÓÐ×ã¹»µÄ¿Õ¼ä¿ÉÓÃÓÚ°²×°¡£
-µ¥»÷¡°°²×°¡±¿ªÊ¼½øÐÐ°²×°¡£
-ÔÚ¡°°²×°Íê³É¡±Ò³ÖÐ£¬Çë¸ù¾ÝÐèÒªÌá¹©ÄäÃûÊ¹ÓÃÊý¾Ý£¬È»ºóµ¥»÷¡°Íê³É¡±¡£
-×¢£ºÈç¹ûÄúÓöµ½ÎÊÌâ¶øÎÞ·¨³É¹¦Íê³ÉÈí¼þµÄ°²×°£¬Çë²Î¼ûÒÉÄÑ½â´ð£¬¸Ã²¿·ÖÕë¶ÔÓ°Ïì°²×°¹ý³ÌµÄÎ´½â¾öÎÊÌâ½øÐÐÁËÃèÊö²¢Ìá¹©ÁË½¨ÒéµÄ½â¾ö·½·¨¡£
+å•å‡»â€œä¸‹ä¸€æ­¥â€ã€‚
+å¦‚æžœæ‰“å¼€äº† GlassFish Server Open Source Edition 4.1.1 å®‰è£…é¡µï¼Œè¯·æŽ¥å—é»˜è®¤å®‰è£…ç›®å½•ï¼Œæˆ–è€…æŒ‡å®šå…¶ä»–å®‰è£…ä½ç½®ï¼Œç„¶åŽå•å‡»â€œä¸‹ä¸€æ­¥â€ã€‚
+å¦‚æžœæ‚¨è¦åœ¨ Apache Tomcat å®‰è£…é¡µä¸Šå®‰è£… Apache Tomcatï¼Œè¯·æŽ¥å—é»˜è®¤å®‰è£…ç›®å½•ï¼Œæˆ–è€…æŒ‡å®šå…¶ä»–å®‰è£…ä½ç½®ã€‚å•å‡»â€œä¸‹ä¸€æ­¥â€ã€‚
+åœ¨â€œæ¦‚è¦â€é¡µä¸Šï¼Œæ‰§è¡Œä»¥ä¸‹æ“ä½œï¼š
+ç¡®ä¿è¦å®‰è£…çš„ç»„ä»¶åˆ—è¡¨æ­£ç¡®ã€‚
+å¦‚æžœè¦æ£€æŸ¥æ›´æ–°ä¸­å¿ƒä¸­æ˜¯å¦å­˜åœ¨å¯èƒ½çš„æ›´æ–°ï¼Œè¯·é€‰ä¸­â€œæ£€æŸ¥æ›´æ–°â€å¤é€‰æ¡†ã€‚
+ç¡®ä¿ç³»ç»Ÿä¸Šæœ‰è¶³å¤Ÿçš„ç©ºé—´å¯ç”¨äºŽå®‰è£…ã€‚
+å•å‡»â€œå®‰è£…â€å¼€å§‹è¿›è¡Œå®‰è£…ã€‚
+åœ¨â€œå®‰è£…å®Œæˆâ€é¡µä¸­ï¼Œè¯·æ ¹æ®éœ€è¦æä¾›åŒ¿åä½¿ç”¨æ•°æ®ï¼Œç„¶åŽå•å‡»â€œå®Œæˆâ€ã€‚
+æ³¨ï¼šå¦‚æžœæ‚¨é‡åˆ°é—®é¢˜è€Œæ— æ³•æˆåŠŸå®Œæˆè½¯ä»¶çš„å®‰è£…ï¼Œè¯·å‚è§ç–‘éš¾è§£ç­”ï¼Œè¯¥éƒ¨åˆ†é’ˆå¯¹å½±å“å®‰è£…è¿‡ç¨‹çš„æœªè§£å†³é—®é¢˜è¿›è¡Œäº†æè¿°å¹¶æä¾›äº†å»ºè®®çš„è§£å†³æ–¹æ³•ã€‚
 
-OS X
-°²×°Èí¼þ£º
-
-ÏÂÔØÍê³Éºó£¬ÔËÐÐ°²×°³ÌÐò¡£°²×°ÎÄ¼þµÄÀ©Õ¹ÃûÎª .dmg¡£
-ÔÚ´ò¿ªµÄÃæ°åÉÏ£¬Ë«»÷°üÍ¼±ê¡£°üµÄÀ©Õ¹ÃûÎª .pkg¡£´ËÊ±½«Æô¶¯°²×°Ïòµ¼¡£
-ÔÚÏÔÊ¾¡°´Ë°ü½«ÔËÐÐ³ÌÐòÀ´È·¶¨ÊÇ·ñ¿ÉÒÔ°²×°Èí¼þ¡±¶Ô»°¿òÊ±£¬µ¥»÷¡°¼ÌÐø¡±¡£
-ÔÚ°²×°Ïòµ¼µÄ¼ò½éÒ³ÖÐ£¬µ¥»÷¡°¼ÌÐø¡±¡£
-×¢£ºÈç¹û JDK °æ±¾ÔçÓÚ½¨ÒéµÄ JDK 8£¬Çë´Ó Java SE ÏÂÔØÒ³ÏÂÔØ²¢°²×°×îÐÂµÄ JDK ¸üÐÂ£¬È»ºóÖØÐÂÆô¶¯ NetBeans IDE °²×°³ÌÐò¡£
-
-²é¿´Ðí¿ÉÖ¤Ð­Òé£¬È»ºóµ¥»÷¡°¼ÌÐø¡±¡£µ¥»÷µ¯³öÊ½´°¿ÚÖÐµÄ¡°½ÓÊÜ¡±ÒÔ½ÓÊÜÐí¿ÉÖ¤¡£
-ÔÚ¡°Ñ¡ÔñÄ¿±ê¡±Ò³ÖÐ£¬Ñ¡ÔñÇý¶¯Æ÷£¬È»ºóµ¥»÷¡°¼ÌÐø¡±¡£
-Èç¹ûÏÂÔØÁËÈ«²¿»ò Java EE °ü£¬Ôò¿ÉÒÔ¶Ô°²×°½øÐÐ¶¨ÖÆ¡£ÔÚ°²×°Ïòµ¼µÄ×îºóÒ»¸öÃæ°åÉÏ£¬°´Ãæ°å×óÏÂ½ÇµÄ¡°¶¨ÖÆ¡±°´Å¥¡£´ËÊ±½«ÏÔÊ¾²úÆ·Ê÷¡£
-Ñ¡ÔñÒª°²×°µÄ²úÆ·¡£
-ÊäÈëÏµÍ³¹ÜÀíÔ±µÄÃû³ÆºÍ¿ÚÁî£¬È»ºóµ¥»÷¡°È·¶¨¡±¿ªÊ¼½øÐÐ°²×°¡£
-ÓëÆ½Ì¨ÎÞ¹ØµÄ°ü
-ÔËÐÐÈí¼þ£º
-
-ÏÂÔØÍêÓëÆ½Ì¨ÎÞ¹ØµÄ ZIP ÎÄ¼þÖ®ºó£¬½«Æä½âÑ¹Ëõµ½ÏµÍ³ÉÏµÄÈÎÒâÎÄ¼þ¼ÐÖÐ¡£
-ÔËÐÐÎ»ÓÚ netbeans/bin Ä¿Â¼ÖÐµÄ¿ÉÖ´ÐÐÎÄ¼þ¡£
-½ÓÊÜÐí¿ÉÖ¤Ð­Òé¡£
-µ¥»÷¡°ÏÂÒ»²½¡±¡£´ËÊ±½«»áÆô¶¯ NetBeans IDE °²×°¡£
-×¢£ºÈç¹ûÕÒ²»µ½¼æÈÝµÄ JDK °²×°£¬Äú¿ÉÄÜÐèÒªÍ¨¹ýÖ´ÐÐÒÔÏÂ²Ù×÷ÊÖ¶¯Ìí¼ÓÖ¸Ïò JDK °²×°Ä¿Â¼µÄÂ·¾¶£º
-
-ÔÚÎÄ±¾±à¼­Æ÷ÖÐ´ò¿ªÎ»ÓÚ netbeans/etc Ä¿Â¼ÖÐµÄ netbeans.conf ÎÄ¼þ¡£
-Îª netbeans_jdkhome Ñ¡ÏîÊäÈë¼æÈÝ JDK °²×°µÄÎ»ÖÃ¡£Windows ÖÐµÄÄ¬ÈÏÎ»ÖÃÎª C:\Program Files\Java\jdk1.8.0 »òÀàËÆÎ»ÖÃ¡£
-±£´æ netbeans.conf ÎÄ¼þ£¬È»ºóÔËÐÐ netbeans/bin Ä¿Â¼ÖÐµÄ¿ÉÖ´ÐÐÎÄ¼þ¡£
-×¢£ºGlassFish Server Open Source Edition ºÍ Apache Tomcat ½ö°üº¬ÔÚÌØ¶¨ÓÚÆ½Ì¨µÄ°²×°³ÌÐòÖÐ¡£
-
-×¢£ºÒªÊ¹ÓÃÒÑ°²×°ÔÚ¼ÆËã»úÉÏµÄ GlassFish Server Open Source Edition ºÍ/»ò Apache Tomcat£¬ÇëÔÚ NetBeans IDE ÖÐ£¬µ¥»÷¹¤¾ß²Ëµ¥ÖÐµÄ·þÎñÆ÷¡£´ËÊ±½«»áÏÔÊ¾Ìí¼Ó·þÎñÆ÷ÊµÀýÏòµ¼£¬¸ÃÏòµ¼¿É°ïÖúÔÚ NetBeans IDE ÖÐ×¢²áËùÐè Web ·þÎñÆ÷µÄÊµÀý¡£
+æ³¨ï¼šè¦ä½¿ç”¨å·²å®‰è£…åœ¨è®¡ç®—æœºä¸Šçš„ GlassFish Server Open Source Edition å’Œ/æˆ– Apache Tomcatï¼Œè¯·åœ¨ NetBeans IDE ä¸­ï¼Œå•å‡»å·¥å…·èœå•ä¸­çš„æœåŠ¡å™¨ã€‚æ­¤æ—¶å°†ä¼šæ˜¾ç¤ºæ·»åŠ æœåŠ¡å™¨å®žä¾‹å‘å¯¼ï¼Œè¯¥å‘å¯¼å¯å¸®åŠ©åœ¨ NetBeans IDE ä¸­æ³¨å†Œæ‰€éœ€ Web æœåŠ¡å™¨çš„å®žä¾‹ã€‚
