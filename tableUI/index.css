@@ -1,0 +1,64 @@
+
+body {
+    background-color: rgb(65, 65, 65);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    table-layout: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    background-color: rgb(128, 128, 128);
+}
+
+
+table tr:nth-child(1) {
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+}
+table tr:nth-child(4) {
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+}
+table tr:nth-child(2n) {
+    background-color: rgb(192, 192, 192);
+}
+table tr:nth-child(2n+3) {
+    background-color: rgb(224, 224, 224);
+}
+table caption {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+table .absorbing-column {
+    width: 100%;
+}
+button{
+  width:80px;
+  height:50%;
+  margin:auto;
+  font-size:20px;
+  border-radius: 4px;
+  float:left;
+}
+input{
+  border-radius: 4px;
+  width:100%;
+}
+td{
+  border:1px solid lightgray;
+  text-align: left;
+  height:75px;
+}
+th{
+  height: 50px;
+  text-align: left;
+}
+#bodys{float:left;}
